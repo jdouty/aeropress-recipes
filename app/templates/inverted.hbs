@@ -1,2 +1,8 @@
-<h1>Inverted Method</h1>
-{{outlet}}
+<H1>Inverted Method</H1>
+
+{{#each model as |recipe|}}
+<div>
+  <div>{{recipe.title}}</div>
+  <div>{{recipe.method}}</div>
+</div>
+{{/each}}

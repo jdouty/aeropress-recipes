@@ -2,6 +2,12 @@
 
 module.exports = function(environment) {
   var ENV = {
+    firebase: {
+      apiKey: "AIzaSyCJhGTG2gFW2-wy0YmtrpFrGQar3xjPox0",
+      authDomain: "aeropress-recipes.firebaseapp.com",
+      databaseURL: "https://aeropress-recipes.firebaseio.com",
+      storageBucket: "aeropress-recipes.appspot.com",
+    },
     modulePrefix: 'aeropress-recipes',
     environment: environment,
     baseURL: '/',

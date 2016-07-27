@@ -6,10 +6,10 @@ export default Ember.Route.extend({
     //   title: "Original",
     //   method: "Standard"
     // }).save();
-
-    return this.store.query('recipe', {
-      orderBy: 'method',
-      equalTo: 'Inverted'
-    });
+    //
+    // this.store.createRecord('recipe', {
+    //   title: "Flip that shit",
+    //   method: "Inverted"
+    // }).save();
   }
 });

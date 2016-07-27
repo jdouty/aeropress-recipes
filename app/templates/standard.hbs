@@ -1,2 +1,8 @@
 <H1>Standard Method</H1>
-{{outlet}}
+
+{{#each model as |recipe|}}
+<div>
+  <div>{{recipe.title}}</div>
+  <div>{{recipe.method}}</div>
+</div>
+{{/each}}
