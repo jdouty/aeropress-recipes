@@ -2,7 +2,12 @@
 
 {{#each model as |recipe|}}
 <div>
-  <div>{{recipe.title}}</div>
-  <div>{{recipe.method}}</div>
+  <h2 style="font-size:medium">{{recipe.title}}</h2>
+  <div>
+    {{recipe.coffeeVolume}} scoops of coffee with a {{recipe.coffeeGrind}} grind.
+  </div>
+  <div>
+    {{recipe.waterVolume}} shots water at {{recipe.waterTemp}} degrees
+  </div>
 </div>
 {{/each}}
