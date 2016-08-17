@@ -6,6 +6,7 @@ import Model from 'ember-data/model';
 export default Model.extend({
   title: DS.attr('string'),
   method: DS.attr('string'),
+  type: DS.attr('string'),
   coffeeVolume: DS.attr('string'),
   coffeeGrind: DS.attr('string'),
   waterVolume: DS.attr('string'),
